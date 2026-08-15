@@ -1,0 +1,25 @@
+body{
+    background-color: bisque;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+button{
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 10%;
+    cursor:pointer;
+}
+
+button:hover{
+    background-color: gray;
+}
+
+#game-log{
+    margin-top: 5%;
+    border-width: 2px solid brown;
+    min-height: 30px;
+    padding: 5%;
+    background-color: gray;
+    white-space: pre-line;
+}
